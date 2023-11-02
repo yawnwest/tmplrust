@@ -21,7 +21,7 @@ jobs:
       - name: Publish ${{ matrix.os }}
         uses: taiki-e/upload-rust-binary-action@v1
         with:
-          bin: square
+          bin: tmplrust
           archive: $bin-$tag-$target
           include: LICENSE,README.md
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -45,7 +45,7 @@ jobs:
       - name: Publish ${{ matrix.os }}
         uses: taiki-e/upload-rust-binary-action@v1
         with:
-          bin: square
+          bin: tmplrust
           target: ${{ matrix.target }}
           archive: $bin-$tag-$target
           include: LICENSE,README.md

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.1.1] - 2023-11-02
+
+### Fixed
+
+- Publish github action
+
 ## [v0.1.0] - 2023-11-02
 
 ### Added
@@ -19,5 +25,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - GitHub Workflow to publish binaries automatically on release
 - Pull-request template
 
-[unreleased]: https://github.com/yawn77/tmplrust/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/yawn77/tmplrust/compare/v0.1.1...HEAD
+[v0.1.1]: https://github.com/yawn77/tmplrust/compare/v0.1.1...v0.1.0
 [v0.1.0]: https://github.com/yawn77/tmplrust/releases/tag/v0.1.0
