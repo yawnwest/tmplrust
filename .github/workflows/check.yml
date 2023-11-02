@@ -1,0 +1,22 @@
+name: Check
+
+on: [push]
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+      - name: Check
+        uses: actions-rs/cargo@v1
+        with:
+          command: check
